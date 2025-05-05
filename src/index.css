@@ -1,0 +1,194 @@
+:root {
+  /** Base colors */
+  --clr-dark-a0: #000000;
+  --clr-light-a0: #ffffff;
+
+  /** Theme primary colors */
+  --clr-primary-a0: #66ff00;
+  --clr-primary-a10: #80ff40;
+  --clr-primary-a20: #95ff5f;
+  --clr-primary-a30: #a7ff79;
+  --clr-primary-a40: #b8ff90;
+  --clr-primary-a50: #c8ffa7;
+
+  /** Theme surface colors */
+  --clr-surface-a0: #000000;
+  --clr-surface-a10: #1e1e1e;
+  --clr-surface-a20: #353535;
+  --clr-surface-a30: #4e4e4e;
+  --clr-surface-a40: #696969;
+  --clr-surface-a50: #858585;
+
+  /** Theme tonal surface colors */
+  --clr-surface-tonal-a0: #131c0c;
+  --clr-surface-tonal-a10: #283123;
+  --clr-surface-tonal-a20: #3f473b;
+  --clr-surface-tonal-a30: #585f53;
+  --clr-surface-tonal-a40: #71776e;
+  --clr-surface-tonal-a50: #8c9189;
+
+  /** Theme */
+  --bg-color: #000000;
+  --section-bg-color: #1e1e1e;
+  --border-color: #4e4e4e;
+  --icon-color: #a7ff79;
+  --text-color: #ffffff;
+  --selected-color: #95ff5f;
+  --primary-button-color: #95ff5f;
+  --primary-hover-color: #80ff40;
+  --secondary--bg-button-color: #1e1e1e;
+  --secondary--text-button-color: #000000;
+  --secondary-hover-color: #353535;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  /** Examples */
+  .bg-primary {
+    color: var(--clr-primary-a50);
+    background-color: var(--clr-surface-a0);
+  }
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html,
+body {
+  font-family: -apple-system;
+}
+
+/*
+
+Reset Default Styles
+
+*/
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
